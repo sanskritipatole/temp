@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url('news.svg') no-repeat scroll center;
+    background-size: cover;
+    background-origin:padding-box;
+    letter-spacing: 2px;
+}
+
+.container{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav-landing{
+    background: rgba(152, 120, 179, 0.3);
+    height: 80px;
+    position: relative;
+    
+}
+
+.logo-landing{
+    float: left;
+    color:white;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline rgb(117, 147, 148);
+    
+    
+}
+
+.logo-landing span{
+    color: rgba(4, 137, 160, 0.932);
+}
+
+.logo-landing b{
+    color: rgb(117, 147, 148);
+}
+.menu-landing{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.menu-landing li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+.menu-landing li a{
+    color: rgb(9, 100, 100);
+    text-decoration: none;
+}
+.menu-landing li a:hover{
+    color: white;
+}
+.menu-landing li .active{
+    color: white;
+}
+
+.menu-landing li i{
+    margin-right: 5px;
+
+}
+
+.sub-menu-landing{
+    display: none;
+}
+
+.menu-landing ul li:hover .sub-menu-landing{
+    display: block;
+    width: 170px;
+    position: absolute;
+    margin: 5px;
+
+}
+
+.menu-landing ul li:hover .sub-menu-landing ul {
+    display: block;
+   
+    position: absolute;
+    margin: 0px;
+    background-color: rgba(4, 137, 160, 0.3);
+}
+
+.menu-landing ul li:hover .sub-menu-landing ul :last-child{
+    border-bottom: none;
+}
+
+.menu-landing ul li:hover .sub-menu-landing ul li {
+   border-bottom: 1px dotted white;
+}
+
+.sub-menu2-landing{
+    display: none;
+}
+
+.menu-landing ul li:hover .sub-menu-landing .sub-sub-menu-landing{
+    display: block;
+    float: right;
+    position: absolute;
+}
+
+.hoover-me:hover .sub-menu2-landing{
+    position: absolute;
+    display: block;
+    margin-top: -30px;
+    margin-left: 170px;
+    background-color: rgba(4, 137, 160, 0.3);
+}
+
+.fa-angle-right{
+    float: right;
+    color: white;
+}
+
+.text-landing{
+   text-align: center;
+   position: absolute;
+   top: 40%;
+   left: 30%;
+   
+}
+.text-landing h2{
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+   color: rgb(10, 51, 51);
+   
+}
+.text-landing h2 span{
+    text-decoration: underline rgb(66, 75, 75);
+    text-transform: capitalize;
+}
+p{
+    font-size: 25px;
+}
+
+.text-landing .btn{
+    background-color: rgba(4, 137, 160, 0.932);
+    padding: 10px 25px;
+    border: none;
+    /*margin-top: 5%;*/
+    border-radius: 25px;
+    font-size: 20px;
+    color: black;
+   }

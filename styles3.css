@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /*background: url('img.png') no-repeat scroll center;
+    background-size: cover;
+    background-origin:padding-box*/
+    background-color: rgb(221, 207, 221);
+    l
+}
+
+.container{
+    height: 100 vh;
+    overflow: hidden;
+    background: url(image1.svg) no-repeat scroll left;
+    margin-left: 10%;
+    background-size: 500px 500px;
+    
+}
+.user-login-landing{
+    float: right;
+    margin-top: 10%;
+    margin-right: 20%;
+    text-align: center;
+    height: 500px;
+    width: 400px;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.user-login-landing p{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.main-form-landing{
+    height: 500px;
+    width: 400px;
+    float: left;
+    
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+#first, #last, #pass{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.textbox-landing{
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.btn{
+    background-color: rgba(183, 111, 192, 0.42);
+    padding: 10px 25px;
+    border: none;
+    /*margin-top: 5%;*/
+    border-radius: 5px;
+    font-size: 15pxpx;
+    color: black;
+    text-align: center;
+    float: center;
+    font-family: 'Raleway', sans-serif;
+    
+}
